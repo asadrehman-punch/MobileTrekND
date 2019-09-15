@@ -1,0 +1,36 @@
+iOS
+
+v 1.2 [In Review]
+- Added meeting type selection to meeting checkout
+- Added location services to daily status
+- Added progress view to MTrekOptionsView
+- Added server and client side UUID breathalyzer device restrictions.
+- Fixed alert running on main thread causing crash when attempting to log in with invalid credentials
+- Fixed layout of check in and check out views
+- Changed content size of scrollview when keyboard is hidden with animation 
+- Fixed keyboard scrolling issues on login screen
+- Added scrollview to MobileTrek Options
+- Fixed confirmation message not displaying for test status
+- Fixed invocation exception and removed unused variables from app delegate
+- Changed embedded image view for silhouette
+- Adjusted layouts for silhouettes and added to checkout selfie view
+- Updated attedance document picture
+- Fixed upload for all checkout pictures
+- Fixed document outline in checkout attendance view
+- Completed bac testing revamp
+- Updated progress view to be implemented via storyboard instead of hard coded
+- Added feedback to support view
+
+
+v 1.1 [Live iOS App Store]
+- Added interrupt for meeting activities
+- Fixed agreement layout from support view
+- Adjusted font weight on daily status view
+- Added clear and done buttons with help text to the signature view
+- Signature view will no longer fallback to upload
+- Fixed results not showing after BAC test
+- Changed back button to be just arrow without text
+- Added new alert for when user does not have location services enabled
+- Fixed Daily Status view layout issues
+- Fixed sessions causing multiple draws of login view
+- Adjusted agreement view readability
